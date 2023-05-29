@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/Logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador -Alura</title>
+</head>
+<body>
+    <header>
+        <img class="logoalura" src="imagem/logo.png" alt="Logo da Alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto..."></textarea>
+            <div class="informacao">
+                <h6><img src="imagem/exclamacao.png" alt="imagem exclamação"> Apenas letras minúsculas e sem acentos.</h6>
+            </div>
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-descriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensagem" cols="20" rows="10" display="none"></textarea>
+
+        </section>
+        
+    </main>
+    
+        <footer>
+             <h2>Desenvolvido por Nicholas Morine - 2023</h2>
+             <a href="https://www.linkedin.com/in/nicholasmorine/"><img src="imagem/linkedin (1).png" alt="linkedin"></a>
+             <a href="https://github.com/NicholasMorine"><img src="imagem/github.png" alt="github"></a> 
+        </footer>
+        <script src="javascript.js"></script>
+</body>
+</html>
